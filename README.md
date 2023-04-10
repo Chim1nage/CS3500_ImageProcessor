@@ -1,5 +1,3 @@
-# CS3500Team
-
 # Contributors: Hanghong Lin, Zhijie Jiang
 
 ___
