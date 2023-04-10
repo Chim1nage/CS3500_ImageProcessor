@@ -1,0 +1,62 @@
+load noMask/whatsapp.png origin
+down-scale 256 256 origin origin-down-256-256
+down-scale 200 300 origin origin-down-200-300
+save noMask/origin-whatsapp-256-256.png origin-down-256-256
+save noMask/origin-whatsapp-200-300.png origin-down-200-300
+
+brighten 40  origin originBR
+brighten -100  origin originD
+vertical-flip  origin originVF
+horizontal-flip origin originHF
+red-greyscale origin originRG
+green-greyscale origin originGG
+blue-greyscale origin originBG
+value-greyscale origin originVG
+intensity-greyscale origin originIG
+luma-greyscale origin originLG
+blur origin originBL
+sharpen origin originSH
+greyscale origin originG
+sepia-tone origin originSE
+
+save noMask/originBR.png originBR
+save noMask/originD.png originD
+save noMask/originVF.png originVF
+save noMask/originHF.png originHF
+save noMask/originRG.png originRG
+save noMask/originGG.png originGG
+save noMask/originBG.png originBG
+save noMask/originVG.png originVG
+save noMask/originIG.png originIG
+save noMask/originLG.png originLG
+save noMask/originBL.png originBL
+save noMask/originSH.png originSH
+save noMask/originG.png originG
+save noMask/originSE.png originSE
+
+load mask/512x512bw.png mask
+brighten 40  origin mask bright
+brighten -100  origin mask dark
+red-greyscale origin mask red
+green-greyscale origin mask green
+blue-greyscale origin mask blue
+value-greyscale origin mask value
+intensity-greyscale origin mask intensity
+luma-greyscale origin mask luma
+blur origin mask blury
+sharpen origin mask sharpened
+greyscale origin mask greyscaled
+sepia-tone origin mask sepiatoned
+
+save mask/brighten.png bright
+save mask/darken.png dark
+save mask/red.png red
+save mask/green.png green
+save mask/blue.png blue
+save mask/value.png value
+save mask/intensity.png intensity
+save mask/luma.png luma
+save mask/blur.png blury
+save mask/sharpen.png sharpened
+save mask/greyscale.png greyscaled
+save mask/sepiatone.png sepiatoned

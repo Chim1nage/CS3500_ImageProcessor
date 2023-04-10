@@ -1,0 +1,61 @@
+load 2x2color.ppm 2x2color
+brighten 40  2x2color 2x2colorBrighten
+brighten -100  2x2color 2x2colorDarken
+vertical-flip  2x2color 2x2colorVerticalFlip
+horizontal-flip 2x2color 2x2colorHorizontalFlip
+red-greyscale 2x2color 2x2colorRed
+green-greyscale 2x2color 2x2colorGreen
+blue-greyscale 2x2color 2x2colorBlue
+value-greyscale 2x2color 2x2colorValue
+intensity-greyscale 2x2color 2x2colorIntensity
+luma-greyscale 2x2color 2x2colorLuma
+blur 2x2color 2x2colorBlur
+sharpen 2x2color 2x2colorSharpen
+greyscale 2x2color 2x2colorGreyScale
+sepia-tone 2x2color 2x2colorSepia
+
+save 2x2colorBrighten.ppm 2x2colorBrighten
+save 2x2colorDarken.ppm 2x2colorDarken
+save 2x2colorVerticalFlip.ppm 2x2colorVerticalFlip
+save 2x2colorHorizontalFlip.ppm 2x2colorHorizontalFlip
+save 2x2colorRed.ppm 2x2colorRed
+save 2x2colorGreen.ppm 2x2colorGreen
+save 2x2colorBlue.ppm 2x2colorBlue
+save 2x2colorValue.ppm 2x2colorValue
+save 2x2colorIntensity.ppm 2x2colorIntensity
+save 2x2colorLuma.ppm 2x2colorLuma
+save 2x2colorBlur.ppm 2x2colorBlur
+save 2x2colorSharpen.ppm 2x2colorSharpen
+save 2x2colorGreyScale.ppm 2x2colorGreyScale
+save 2x2colorSepia.ppm 2x2colorSepia
+
+load class/class.png class
+brighten 40  class classBrighten
+brighten -100  class classDarken
+vertical-flip  class classVerticalFlip
+horizontal-flip class classHorizontalFlip
+red-greyscale class classRed
+green-greyscale class classGreen
+blue-greyscale class classBlue
+value-greyscale class classValue
+intensity-greyscale class classIntensity
+luma-greyscale class classLuma
+blur class classBlur
+sharpen class classSharpen
+greyscale class classGreyScale
+sepia-tone class classSepia
+
+save classBrighten.png classBrighten
+save classDarken.png classDarken
+save classVerticalFlip.png classVerticalFlip
+save classHorizontalFlip.png classHorizontalFlip
+save classRed.png classRed
+save classGreen.png classGreen
+save classBlue.png classBlue
+save classValue.png classValue
+save classIntensity.png classIntensity
+save classLuma.png classLuma
+save classBlur.png classBlur
+save classSharpen.png classSharpen
+save classGreyScale.png classGreyScale
+save classSepia.png classSepia
